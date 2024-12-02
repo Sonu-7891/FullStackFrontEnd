@@ -1,0 +1,81 @@
+.login-card{
+    margin: auto;
+    height: 400px;
+    width: 450px;
+    color: white;
+    text-align: center;
+    background:-webkit-radial-gradient(rgb(189, 236, 185), rgb(5, 18, 6), rgb(188, 242, 187),rgb(60, 85, 60),rgb(191, 245, 191),rgb(132, 197, 104));
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+
+}
+.login-card input{
+    padding: 12px;
+    border-radius: 10px;
+    width: 430px;
+    margin: 10px 0px;
+}
+.login-card button{
+    width: 400px;
+    background: linear-gradient(rgb(144, 198, 139), rgb(5, 18, 6), rgb(144, 222, 141));
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 10px ;
+    margin: 10px 10px;
+}
+.login-card span{
+    margin-left: -30px;
+}
+
+
+.login-card p {
+  margin-top: 19px;
+  font-size: 22px;
+}
+
+.auth-link {
+  color: #007bff;
+  cursor: pointer;
+  padding-left: 30px;
+}
+.login-card-select{
+  padding: 12px;
+    border-radius: 10px;
+    width: 450px;
+    margin: 10px 0px;
+}
+
+.auth-link:hover {
+  text-decoration: underline;
+}
+@media (max-width: 400px) {
+ .login-card{
+    height: 450px;
+    width: 330px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 30px;
+}
+.login-card input{
+    width: 320px;
+    margin: 10px 0px;
+}
+.login-card button{
+    width: 300px;
+}
+.login-card span{
+    margin-left: -40px;
+}
+
+.login-card-select{
+  padding: 12px;
+    border-radius: 10px;
+    width: 340px;
+    margin: 10px 0px;
+}
+}
